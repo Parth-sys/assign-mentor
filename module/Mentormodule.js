@@ -1,5 +1,5 @@
 const Mentor=require('../modal/mentor');
-const Student =require('../modal/student')
+const Student =require('../modal/student');
 
 const Joi=require('joi');
 

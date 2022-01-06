@@ -1,7 +1,7 @@
 var express=require("express");
 var router=express.Router();
 var MentorModule=require('../module/Mentormodule');
-var Ment=require("../module/mentorStudent");
+//var Ment=require("../module/mentorStudent");
 
 router.post('/saveMentor',MentorModule.postMentor);
 router.get('/getMentor',MentorModule.getMentor);
